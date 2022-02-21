@@ -13,5 +13,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
 
     <!-- DEFAULT CSS LINK -->
-    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}"
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+
+    <style>
+        @font-face {
+            font-family: 'NanumSquareB';
+            src: local('NanumSquareB'),
+            url("{% static 'font/NanumSquareB.otf' %}") format("opentype");
+        }
+        @font-face {
+            font-family: 'NanumSquareEB';
+            src: local('NanumSquareEB'),
+            url("{% static 'font/NanumSquareEB.otf' %}") format("opentype");
+        }
+        @font-face {
+            font-family: 'NanumSquareL';
+            src: local('NanumSquareL'),
+            url("{% static 'font/NanumSquareL.otf' %}") format("opentype");
+        }
+        @font-face {
+            font-family: 'NanumSquareR';
+            src: local('NanumSquareR'),
+            url("{% static 'font/NanumSquareR.otf' %}") format("opentype");
+        }
+        @font-face {
+            font-family: 'NanumGomSinCe';
+            src: local('NanumGomSinCe'),
+            url("{% static 'font/NanumGomSinCe.ttf' %}") format("opentype");
+        }
+    </style>
 </head>

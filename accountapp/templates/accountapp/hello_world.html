@@ -7,12 +7,12 @@
             Hello World LIST!
         </h1>
 
-        <form action="/account/hello_world/" method="post">
+        <form action="/account/hello_world/" method="post" >
             {% csrf_token %}
             <div>
                 <input type="text" name="hello_world_input">
             </div>
-            <div>
+            <div style="margin-top: 1rem;">
                 <input type="submit" class="btn btn-primary" value="POST">
             </div>
 
