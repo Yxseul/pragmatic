@@ -9,7 +9,7 @@
             </p>
 
             {% if target_user.profile %}
-            <img src="{{ target_user.profile.image.url }}" alt="" style="height: 12rem; width: 12rem; border-radius: 20rem; margin-bottom: 1rem;">
+            <img src="{{ target_user.profile.image.url }}" alt="" style="height: 12rem; width: 12rem; border-radius: 20rem; margin-bottom: 1rem; object-fit: cover;">
 
             <h2 style="font-family: 'NanumSquareB'">
                 {{ target_user.profile.nickname }}
